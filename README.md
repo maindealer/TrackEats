@@ -5,7 +5,7 @@
   - 이미지는 반드시 images 파일에 넣어주세요!
   - pull은 자주 자주 해주세요!
 
-## 팀원
+### 팀원
 - 이하준 :eagle:
 - 박경성이 :hamster:
 - 변인주 :leopard:
@@ -13,5 +13,5 @@
 
 
 
-### 프로젝트 설명
+## 프로젝트 설명
 ![카페인](https://github.com/user-attachments/assets/be891ccf-4f2a-4b1c-a563-3a14d0abb679)
