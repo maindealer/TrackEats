@@ -1,4 +1,4 @@
-# TrakEats
+# TrackEats
 ### :coffee: 일일 카페인(영양소) 섭취 관리 프로젝트 :coffee:
 
 ### 프로젝트 규칙
