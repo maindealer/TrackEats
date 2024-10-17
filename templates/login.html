@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>TrackEats에 오신 것을 환영합니다</h1>
+
+    {% if error %}
+        <p class="error">{{ error }}</p>
+    {% endif %}
+
+    <form action="/login" method="POST">
+        <label for="user_id">ID:</label>
+        <input type="text" id="user_id" name="user_id" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <div class="button-group">
+            <button type="submit">로그인</button>
+            <button type="button" onclick="window.location.href='/register'">회원가입</button>
+        </div>
+    </form>
+{% endblock %}

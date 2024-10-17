@@ -1,5 +1,5 @@
 flask
 flask_sqlalchemy
 flask_migrate
-flask-mysqldb
+pymysql
 werkzeug

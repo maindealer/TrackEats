@@ -1,4 +1,6 @@
+import os
+
 class Config:
-    SQLALCHEMY_DATABASE_URI = 'mysql://username:password@localhost/db_name'
+    SECRET_KEY = os.environ.get('SECRET_KEY', 'default_secret_key')
+    SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URI', 'sqlite:///default.db')
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-    SECRET_KEY = 'your_secret_key_here'
