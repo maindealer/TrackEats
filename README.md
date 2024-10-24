@@ -17,3 +17,7 @@
 
 ### 프로젝트 설명
 ![카페인](https://github.com/user-attachments/assets/be891ccf-4f2a-4b1c-a563-3a14d0abb679)
+
+
+### 현황
+- 작업 중지
